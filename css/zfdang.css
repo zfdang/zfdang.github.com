@@ -492,3 +492,10 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
+.image-center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
