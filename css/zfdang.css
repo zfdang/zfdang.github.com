@@ -420,10 +420,6 @@ footer .footer-below {
 .screenshot {
     max-height: 350px;
     max-width:300px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
 }
 
 .scroll-top .btn {
