@@ -5,10 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Zhengfa Dang dantifer zfdang">
-  <meta name="description" content="Zhengfa DANG — Software Engineer, open-source contributor, and Tsinghua alumnus. Building mobile and desktop apps that people use every day.">
+  <meta name="description" content="Zhengfa DANG — engineering leader and open-source builder. Trusted infrastructure for AI agents, useful apps for macOS and Android, and notes on engineering.">
   <meta name="keywords" content="Zhengfa Dang, zfdang, dantifer, software engineer, Android, macOS, open source, Tsinghua">
 
-  <title>Zhengfa DANG — Software Engineer</title>
+  <title>Zhengfa DANG — Engineering Leader &amp; Open Source Builder</title>
+  <link rel="canonical" href="https://zfdang.com/">
+  <meta name="theme-color" content="#fafafa">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zhengfa DANG">
+  <meta property="og:title" content="Zhengfa DANG — Engineering Leader &amp; Open Source Builder">
+  <meta property="og:description" content="Trusted infrastructure for AI agents. Open-source apps for everyday life. Notes on building software and teams.">
+  <meta property="og:url" content="https://zfdang.com/">
+  <meta property="og:image" content="https://zfdang.com/images/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Zhengfa DANG — Engineering Leader and Open Source Builder">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zhengfa DANG — Engineering Leader &amp; Open Source Builder">
+  <meta name="twitter:description" content="Trusted infrastructure for AI agents. Open-source apps for everyday life. Notes on building software and teams.">
+  <meta name="twitter:image" content="https://zfdang.com/images/social-preview.png">
+  <meta name="twitter:image:alt" content="Zhengfa DANG — Engineering Leader and Open Source Builder">
 
   <link rel="shortcut icon" href="favicon.ico">
 
@@ -18,10 +34,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Design system -->
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/main.css?v=20260906" rel="stylesheet">
 </head>
 
 <body id="page-top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
   <!-- ── Navigation ──────────────────────────────────────────── -->
   <nav class="nav" role="navigation" aria-label="Main navigation">
@@ -33,12 +50,12 @@
           <li><a href="#about">About</a></li>
           <li><a href="#stats">GitHub</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="#blog">Writing</a></li>
           <li><a href="#connect">Connect</a></li>
         </ul>
 
         <div class="nav-actions">
-          <button class="nav-hamburger" id="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <button type="button" class="nav-hamburger" id="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
             <span></span>
             <span></span>
             <span></span>
@@ -48,6 +65,7 @@
     </div>
   </nav>
 
+  <main id="main-content" tabindex="-1">
   <!-- ── Hero ────────────────────────────────────────────────── -->
   <section id="hero" aria-labelledby="hero-name">
     <div class="container">
@@ -64,19 +82,19 @@
           </h1>
 
           <p class="hero-tagline">
-            Software Engineer &middot; Open Source Contributor &middot; Tsinghua Alum
+            Engineering Leader &middot; Open Source Builder
           </p>
 
           <p class="hero-bio">
-            I build apps that are used by thousands of people daily — from macOS menu bar utilities to Android clients and chess learning tools.
-            Focused on clean code, thoughtful UX, and open collaboration.
+            I lead engineering teams building trusted infrastructure for AI agents.
+            Outside work, I make open-source apps for everyday life — from a lunar calendar to a better way to learn chess.
           </p>
 
           <div class="hero-ctas">
             <a href="#projects" class="btn-primary">
               <!-- Arrow down icon -->
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m-6-6 6 6 6-6" />
               </svg>
               View Projects
             </a>
@@ -90,7 +108,7 @@
           </div>
         </div>
 
-        <div class="hero-portrait-wrap" aria-hidden="true">
+        <div class="hero-portrait-wrap">
           <img
             class="hero-portrait"
             src="images/portrait.png"
@@ -110,7 +128,7 @@
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">About</span>
-        <h2 class="section-title" id="about-title">Background &amp; Skills</h2>
+        <h2 class="section-title" id="about-title">Building software. Growing teams.</h2>
       </div>
 
       <div class="about-grid">
@@ -151,28 +169,16 @@
       <div class="section-header fade-in">
         <span class="section-label">Open Source</span>
         <h2 class="section-title" id="stats-title">GitHub Activity</h2>
-        <p class="section-sub">A snapshot of public contributions and languages on <a href="https://github.com/zfdang" target="_blank" rel="noopener">github.com/zfdang</a>.</p>
+        <p class="section-sub">Public contributions and languages on <a href="https://github.com/zfdang" target="_blank" rel="noopener">github.com/zfdang</a>.</p>
       </div>
-
-      <div class="stats-grid fade-in">
-        <div class="stats-card stagger-1">
-          <img
-            src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zfdang&theme=default"
-            alt="GitHub stats for zfdang"
-            loading="lazy"
-            style="width:100%; height:auto;"
-          >
-        </div>
-        <div class="stats-card stagger-2">
-          <img
-            src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zfdang&theme=default"
-            alt="Top languages for zfdang"
-            loading="lazy"
-            style="width:100%; height:auto;"
-          >
-        </div>
+      <div class="stats-grid">
+        <a class="stats-card" href="https://github.com/zfdang" target="_blank" rel="noopener" aria-label="View zfdang's GitHub profile">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zfdang&amp;theme=default" alt="GitHub stats for zfdang" width="340" height="200" loading="lazy" decoding="async">
+        </a>
+        <a class="stats-card" href="https://github.com/zfdang?tab=repositories" target="_blank" rel="noopener" aria-label="Browse zfdang's repositories on GitHub">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zfdang&amp;theme=default" alt="Top languages for zfdang" width="340" height="200" loading="lazy" decoding="async">
+        </a>
       </div>
-
     </div>
   </section>
 
@@ -181,8 +187,8 @@
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Featured Work</span>
-        <h2 class="section-title" id="projects-title">Projects</h2>
-        <p class="section-sub">Open-source apps built and maintained over the years.</p>
+        <h2 class="section-title" id="projects-title">Useful things, built to last.</h2>
+        <p class="section-sub">Open-source apps for the desktop, the community, and the chess board.</p>
       </div>
 
       <div class="projects-grid">
@@ -190,38 +196,51 @@
         <!-- Project 1: Chinese Lunar Calendar -->
         <article class="project-card fade-in stagger-1" aria-labelledby="proj1-title">
           <div class="project-img-wrap">
-            <a href="http://calendar.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit Chinese Lunar Calendar project">
-              <img src="projects/calendar.jpg" alt="Chinese Lunar Calendar for Mac screenshot" loading="lazy">
+            <a href="https://calendar.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit Chinese Lunar Calendar project">
+              <picture>
+                <source srcset="projects/calendar.webp" type="image/webp">
+                <img src="projects/calendar.jpg" alt="Chinese Lunar Calendar for Mac screenshot" width="878" height="840" loading="lazy" decoding="async">
+              </picture>
             </a>
           </div>
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">macOS</span>
-              <span class="project-tag">Swift</span>
+              <span class="project-tag">Objective-C</span>
               <span class="project-tag">Open Source</span>
             </div>
             <h3 class="project-title" id="proj1-title">Chinese Lunar Calendar for Mac</h3>
-            <p class="project-title-zh">Mac 状态栏万年历</p>
-            <p class="project-desc">
-              A lightweight macOS menu-bar app that displays a full lunar calendar with traditional Chinese holidays and supports custom personal festivals. Includes keyboard navigation, holiday override updates, and compatibility from OS X 10.8 onwards.
-            </p>
-            <p class="project-desc-zh">
-              从状态栏快速弹出含农历及节日的万年历，支持国内假期调整与在线更新，可添加个人农历/公历节日，支持键盘控制。
-            </p>
-            <a href="http://calendar.zfdang.com/" target="_blank" rel="noopener" class="project-link">
-              calendar.zfdang.com
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+            <p class="project-title-zh" lang="zh-CN">Mac 状态栏万年历</p>
+            <p class="project-summary">A lunar calendar one click away, with Chinese holidays and personal anniversaries in your Mac menu bar.</p>
+            <details class="project-details">
+              <summary>Features &amp; details</summary>
+              <p class="project-desc">
+                A lightweight macOS menu-bar app that displays a full lunar calendar with traditional Chinese holidays and supports custom personal festivals. Includes keyboard navigation, holiday override updates, and compatibility from OS X 10.8 onwards.
+              </p>
+              <p class="project-desc-zh" lang="zh-CN">
+                从状态栏快速弹出含农历及节日的万年历，支持国内假期调整与在线更新，可添加个人农历/公历节日，支持键盘控制。
+              </p>
+            </details>
+            <div class="project-actions">
+              <a href="https://calendar.zfdang.com/" target="_blank" rel="noopener" class="project-link" aria-label="Visit Chinese Lunar Calendar website">
+                Visit website
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://github.com/zfdang/chinese-lunar-calendar-for-mac/" target="_blank" rel="noopener" class="project-source" aria-label="Chinese Lunar Calendar source code on GitHub">Source code</a>
+            </div>
           </div>
         </article>
 
         <!-- Project 2: zSMTH -->
         <article class="project-card fade-in stagger-2" aria-labelledby="proj2-title">
           <div class="project-img-wrap">
-            <a href="http://zsmth.zfdang.com" target="_blank" rel="noopener" aria-label="Visit zSMTH project">
-              <img src="projects/zsmth-android.png" alt="zSMTH Android app screenshot" loading="lazy">
+            <a href="https://zsmth.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit zSMTH project">
+              <picture>
+                <source srcset="projects/zsmth-android.webp" type="image/webp">
+                <img src="projects/zsmth-android.png" alt="zSMTH Android app screenshot" width="1440" height="2560" loading="lazy" decoding="async">
+              </picture>
             </a>
           </div>
           <div class="project-body">
@@ -231,27 +250,37 @@
               <span class="project-tag">Open Source</span>
             </div>
             <h3 class="project-title" id="proj2-title">zSMTH — Android Client for NewSMTH</h3>
-            <p class="project-title-zh">水木社区 BBS 开源 Android 客户端</p>
-            <p class="project-desc">
-              A clean, ad-free Android client for NewSMTH (Tsinghua BBS). Features rich-text post rendering with inline GIFs, full-screen image viewer with EXIF info, Like display, IP geolocation, push notifications for replies and mentions, and board search with partial Chinese matching.
-            </p>
-            <p class="project-desc-zh">
-              无广告、开源的水木社区客户端。支持图文混排、GIF 动画、图片 Exif、IP 来源、消息提醒、版面快速搜索及分享到微信/微博。
-            </p>
-            <a href="http://zsmth.zfdang.com" target="_blank" rel="noopener" class="project-link">
-              zsmth.zfdang.com
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+            <p class="project-title-zh" lang="zh-CN">水木社区 BBS 开源 Android 客户端</p>
+            <p class="project-summary">An ad-free home for the NewSMTH community on Android, with rich posts, image browsing, and reply notifications.</p>
+            <details class="project-details">
+              <summary>Features &amp; details</summary>
+              <p class="project-desc">
+                A clean, ad-free Android client for NewSMTH (Tsinghua BBS). Features rich-text post rendering with inline GIFs, full-screen image viewer with EXIF info, Like display, IP geolocation, push notifications for replies and mentions, and board search with partial Chinese matching.
+              </p>
+              <p class="project-desc-zh" lang="zh-CN">
+                无广告、开源的水木社区客户端。支持图文混排、GIF 动画、图片 Exif、IP 来源、消息提醒、版面快速搜索及分享到微信/微博。
+              </p>
+            </details>
+            <div class="project-actions">
+              <a href="https://zsmth.zfdang.com/" target="_blank" rel="noopener" class="project-link" aria-label="Visit zSMTH website">
+                Visit website
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://github.com/zfdang/zSMTH-Android" target="_blank" rel="noopener" class="project-source" aria-label="zSMTH source code on GitHub">Source code</a>
+            </div>
           </div>
         </article>
 
         <!-- Project 3: Android Touch Helper -->
         <article class="project-card fade-in stagger-3" aria-labelledby="proj3-title">
-          <div class="project-img-wrap">
+          <div class="project-img-wrap project-img-icon">
             <a href="https://touchhelper.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit Android Touch Helper project">
-              <img src="projects/touch_helper.png" alt="Android Touch Helper screenshot" loading="lazy">
+              <picture>
+                <source srcset="projects/touch_helper.webp" type="image/webp">
+                <img src="projects/touch_helper.png" alt="Android Touch Helper app icon" width="512" height="512" loading="lazy" decoding="async">
+              </picture>
             </a>
           </div>
           <div class="project-body">
@@ -261,27 +290,37 @@
               <span class="project-tag">Open Source</span>
             </div>
             <h3 class="project-title" id="proj3-title">Android Touch Helper</h3>
-            <p class="project-title-zh">开屏跳过 — 自动跳过开屏广告</p>
-            <p class="project-desc">
-              An Android accessibility service that automatically skips splash-screen ads across apps. Supports three detection strategies: keyword matching, target widget lookup, and coordinate-based tap — configurable per app with no root required.
-            </p>
-            <p class="project-desc-zh">
-              基于 Android 无障碍服务，自动跳过应用开屏广告。支持关键字、控件 ID、坐标三种跳过策略，免 root，可按应用配置。
-            </p>
-            <a href="https://touchhelper.zfdang.com/" target="_blank" rel="noopener" class="project-link">
-              touchhelper.zfdang.com
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+            <p class="project-title-zh" lang="zh-CN">开屏跳过 — 自动跳过开屏广告</p>
+            <p class="project-summary">Get straight to your apps. Automatically skip splash-screen ads with configurable accessibility rules, without root.</p>
+            <details class="project-details">
+              <summary>Features &amp; details</summary>
+              <p class="project-desc">
+                An Android accessibility service that automatically skips splash-screen ads across apps. Supports three detection strategies: keyword matching, target widget lookup, and coordinate-based tap — configurable per app with no root required.
+              </p>
+              <p class="project-desc-zh" lang="zh-CN">
+                基于 Android 无障碍服务，自动跳过应用开屏广告。支持关键字、控件 ID、坐标三种跳过策略，免 root，可按应用配置。
+              </p>
+            </details>
+            <div class="project-actions">
+              <a href="https://touchhelper.zfdang.com/" target="_blank" rel="noopener" class="project-link" aria-label="Visit Android Touch Helper website">
+                Visit website
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://github.com/zfdang/Android-Touch-Helper" target="_blank" rel="noopener" class="project-source" aria-label="Android Touch Helper source code on GitHub">Source code</a>
+            </div>
           </div>
         </article>
 
         <!-- Project 4: Chess Fish -->
         <article class="project-card fade-in stagger-4" aria-labelledby="proj4-title">
-          <div class="project-img-wrap">
-            <a href="http://fish.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit Chess Fish project">
-              <img src="projects/chessfish.png" alt="Chess Fish Android app screenshot" loading="lazy">
+          <div class="project-img-wrap project-img-icon">
+            <a href="https://fish.zfdang.com/" target="_blank" rel="noopener" aria-label="Visit Chess Fish project">
+              <picture>
+                <source srcset="projects/chessfish.webp" type="image/webp">
+                <img src="projects/chessfish.png" alt="Chess Fish app icon" width="605" height="605" loading="lazy" decoding="async">
+              </picture>
             </a>
           </div>
           <div class="project-body">
@@ -290,24 +329,32 @@
               <span class="project-tag">C++</span>
               <span class="project-tag">AI Engine</span>
             </div>
-            <h3 class="project-title" id="proj4-title">象棋鱼 — Chess Fish</h3>
-            <p class="project-title-zh">开源免费的安卓版象棋学习工具</p>
-            <p class="project-desc">
-              A free, open-source Chinese Chess (Xiangqi) learning app for Android, powered by the Pikafish engine. Features move history display, legal move highlighting, engine-assisted move suggestions with one-tap selection, evaluation curves, and built-in XQF game library.
-            </p>
-            <p class="project-desc-zh">
-              使用皮卡鱼象棋引擎，提供走法提示、局势评估曲线、变着可视化和内置棋谱（XQF 格式），是强大的象棋学习和分析工具。
-            </p>
-            <a href="http://fish.zfdang.com/" target="_blank" rel="noopener" class="project-link">
-              fish.zfdang.com
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-              </svg>
-            </a>
+            <h3 class="project-title" id="proj4-title"><span lang="zh-CN">象棋鱼</span> — Chess Fish</h3>
+            <p class="project-title-zh" lang="zh-CN">开源免费的安卓版象棋学习工具</p>
+            <p class="project-summary">Explore the next move. Study Chinese chess with Pikafish analysis, position evaluations, and a built-in game library.</p>
+            <details class="project-details">
+              <summary>Features &amp; details</summary>
+              <p class="project-desc">
+                A free, open-source Chinese Chess (Xiangqi) learning app for Android, powered by the Pikafish engine. Features move history display, legal move highlighting, engine-assisted move suggestions with one-tap selection, evaluation curves, and built-in XQF game library.
+              </p>
+              <p class="project-desc-zh" lang="zh-CN">
+                使用皮卡鱼象棋引擎，提供走法提示、局势评估曲线、变着可视化和内置棋谱（XQF 格式），是强大的象棋学习和分析工具。
+              </p>
+            </details>
+            <div class="project-actions">
+              <a href="https://fish.zfdang.com/" target="_blank" rel="noopener" class="project-link" aria-label="Visit Chess Fish website">
+                Visit website
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </a>
+              <a href="https://github.com/zfdang/chinese-chess-fish-android/" target="_blank" rel="noopener" class="project-source" aria-label="Chess Fish source code on GitHub">Source code</a>
+            </div>
           </div>
         </article>
 
       </div>
+
     </div>
   </section>
 
@@ -315,8 +362,36 @@
   <section id="blog" aria-labelledby="blog-title">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="section-label">Writing / 博客</span>
-        <h2 class="section-title" id="blog-title">From the Blog</h2>
+        <span class="section-label">Writing / <span lang="zh-CN">博客</span></span>
+        <h2 class="section-title" id="blog-title">Notes from the work.</h2>
+        <p class="section-sub">Selected writing on engineering ownership, AI-assisted development, and trusted infrastructure.</p>
+      </div>
+
+      <div class="writing-list">
+        <a class="writing-card fade-in" href="https://blog.zfdang.com/2026/04/From-Component-Ownership-to-Feature-Ownership-in-the-Age-of-AI-Coding/" target="_blank" rel="noopener">
+          <div class="writing-meta"><span>Engineering leadership</span><time datetime="2026-04-02">Apr 2, 2026</time></div>
+          <div class="writing-content">
+            <h3>From Component Ownership to Feature Ownership in the Age of AI Coding</h3>
+            <p>How end-to-end feature ownership changes team structure, coordination, and the role of an engineer.</p>
+          </div>
+          <span class="writing-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="writing-card fade-in" href="https://blog.zfdang.com/2026/04/several-practices-in-vibe-coding/" target="_blank" rel="noopener">
+          <div class="writing-meta"><span>AI-assisted development</span><time datetime="2026-04-07">Apr 7, 2026</time></div>
+          <div class="writing-content">
+            <h3>Several Practices in Vibe Coding</h3>
+            <p>A practical workflow for separating planning, implementation, testing, and cross-model review.</p>
+          </div>
+          <span class="writing-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="writing-card fade-in" href="https://blog.zfdang.com/2026/03/aws-nitro-enclave-solutions/" target="_blank" rel="noopener">
+          <div class="writing-meta"><span>Trusted infrastructure</span><time datetime="2026-03-19">Mar 19, 2026</time></div>
+          <div class="writing-content">
+            <h3>Choosing an AWS Nitro Enclaves Stack in 2026</h3>
+            <p>Comparing runtime control, attestation, and operational tradeoffs across enclave toolkits and platforms.</p>
+          </div>
+          <span class="writing-arrow" aria-hidden="true">↗</span>
+        </a>
       </div>
 
       <a href="https://blog.zfdang.com" target="_blank" rel="noopener" class="blog-card fade-in" aria-label="Visit blog at blog.zfdang.com">
@@ -333,14 +408,14 @@
             <span class="blog-topic mono">Android Dev</span>
             <span class="blog-topic mono">macOS</span>
             <span class="blog-topic mono">Open Source</span>
-            <span class="blog-topic mono">Chess / 象棋</span>
+            <span class="blog-topic mono">Chess / <span lang="zh-CN">象棋</span></span>
             <span class="blog-topic mono">Tech Notes</span>
           </div>
           <span class="btn-secondary" style="pointer-events:none;">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" style="width:16px;height:16px;">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
             </svg>
-            Visit Blog
+            Browse all posts
           </span>
         </div>
       </a>
@@ -385,7 +460,7 @@
         </a>
 
         <!-- Blog -->
-        <a href="http://blog.zfdang.com" target="_blank" rel="noopener" class="connect-card fade-in stagger-3" aria-label="Personal blog">
+        <a href="https://blog.zfdang.com" target="_blank" rel="noopener" class="connect-card fade-in stagger-3" aria-label="Personal blog">
           <div class="connect-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
@@ -419,6 +494,7 @@
     </div>
   </section>
 
+  </main>
   <!-- ── Footer ────────────────────────────────────────────────── -->
   <footer class="footer" role="contentinfo">
     <div class="container">
@@ -437,7 +513,7 @@
   </footer>
 
   <!-- Vanilla JS -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=20260906"></script>
 
 </body>
 </html>
